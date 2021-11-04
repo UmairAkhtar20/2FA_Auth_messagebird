@@ -1,0 +1,10 @@
+{{#if error}}
+    <p>{{errpr}}</p>
+{{/if}} 
+
+<p>Please enter your phone no</p>
+<form method="post" action='/step2'>
+    <input type="tel" name="number" >
+    <input type="submit" value="send code">
+
+</form>
